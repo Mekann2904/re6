@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="coastalBackground">#303030</color> <!-- ダークモード時の背景色 -->
+    <color name="coastalText">#FFFFFF</color> <!-- ダークモード時のテキスト色 -->
+    <color name="my_light_primary">#0067C0</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+</resources>

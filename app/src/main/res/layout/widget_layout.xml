@@ -1,0 +1,41 @@
+<!-- res/layout/widget_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/coastalBackground">
+
+    <!-- 都市名 -->
+    <TextView
+        android:id="@+id/widget_city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="都市名: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/coastalText" />
+
+    <!-- 天気 -->
+    <TextView
+        android:id="@+id/widget_weather_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="天気: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/coastalText" />
+
+    <!-- 温度 -->
+    <TextView
+        android:id="@+id/widget_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="温度: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/coastalText" />
+</LinearLayout>
